@@ -4,7 +4,8 @@ namespace Payment\Payment;
 
 use Illuminate\View\View;
 
-class Payment {
+class Payment
+{
     /**
      * Render URL payment following VietQR Quicklink format
      *
