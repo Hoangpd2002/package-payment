@@ -2,9 +2,9 @@
 
 namespace Payment\Payment;
 
+use Payment\Payment\Commands\PaymentCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Payment\Payment\Commands\PaymentCommand;
 
 class PaymentServiceProvider extends PackageServiceProvider
 {
